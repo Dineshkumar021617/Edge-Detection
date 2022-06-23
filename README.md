@@ -8,27 +8,8 @@ Anaconda - Python 3.7
 ## Algorithm:
 ### Step1:
 Import the necessary modules.
-
 ### Step2:
-For performing edge detection on a image.
-
-* Sobel
-```
-sobelx=cv2.Sobel(img,cv2.CV_64F,1,0,5)
-sobely=cv2.Sobel(img,cv2.CV_64F,0,1,5)
-sobelxy=cv2.Sobel(img,cv2.CV_64F,1,1,5)
-```
-
-* Laplacian
-```
-Laplacian=cv2.Laplacian(img,cv2.CV_64F)
-```
-
-* Canny
-```
-canny=cv2.Canny(img,120,150)
-```
-
+For performing edge detection on a image use sobel,canny laplacian operations.
 ### Step3:
 Display all the images with their respective edge detected images.
  
