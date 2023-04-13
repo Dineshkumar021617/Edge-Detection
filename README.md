@@ -15,8 +15,8 @@ Display all the images with their respective edge detected images.
 ## Program:
 
 ``` Python
-Name: Dineshkumar
-Reg no: 212220230012
+#Name: Dineshkumar
+#Reg no: 212220230012
 # Import the packages
 import cv2
 import numpy as np
